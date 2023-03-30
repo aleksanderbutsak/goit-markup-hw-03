@@ -22,6 +22,20 @@ html {
   box-sizing: inherit;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -32,10 +46,15 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
@@ -45,6 +64,7 @@ body {
 
 .header {
   background: var(--white-background-color);
+  padding-top: 24px;
 }
 .header-navigation {
 }
@@ -108,12 +128,15 @@ body {
 
 .hero {
   background: var(--dark-color);
+  text-align: center;
+  height: 600px;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background-color);
 }
