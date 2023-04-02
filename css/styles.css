@@ -70,10 +70,15 @@ body {
 .header {
   background: var(--white-background-color);
   padding-top: 24px;
+  padding-bottom: 24px;
 }
-.header-navigation {
+
+.main-navigation {
+  display: flex;
+  text-align: center;
 }
 .logo-link {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   color: var(--primary-brand-color);
@@ -95,14 +100,31 @@ body {
 }
 .list {
 }
-.header-item {
+.header-list {
+  display: block;
+  display: flex;
+  margin-left: 76px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
 }
 .header-link {
 }
 
 .header-contacts {
+  margin-left: auto;
   font-style: normal;
 }
+
+.contacts-list {
+  display: flex;
+  margin-left: 138px;
+}
+.contact-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .contacts-list .contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -121,12 +143,6 @@ body {
 }
 
 .contacts-list .contact-item {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
 }
 
 /**------------------------------------------Hero-------------------------------------------*/
@@ -176,6 +192,7 @@ body {
 .features-title {
 }
 .features-list {
+  display: flex;
 }
 .features-item {
 }
@@ -224,6 +241,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 
 .team {
