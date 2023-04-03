@@ -294,6 +294,13 @@ body {
 
 .footer {
   background-color: var(--dark-color);
+  height: 312px;
+}
+.footer-all-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 264px;
+  height: 112px;
 }
 .logo-link-footer {
   font-family: "Raleway" sans-serif;
@@ -313,6 +320,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
+
+  margin-top: 16px;
 }
 
 **-------------------------------------------Portfolio-------------------------------------------*/
