@@ -378,7 +378,7 @@ body {
   padding-bottom: 120px;
 }
 .category-item {
-  width: calc((100% - 48px) / 3);
+  width: 360px;
   height: 420px;
   text-align: center;
   border: 1px solid var(--accent-color);
@@ -387,7 +387,6 @@ body {
 }
 
 .card-content-portfolio {
-  padding: 32px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,8 +396,7 @@ body {
 }
 
 .category-name {
-  margin-bottom: 8px;
-  align-items: flex-start;
+  margin-top: 32px 95px 8px 15;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
