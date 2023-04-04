@@ -375,21 +375,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding-bottom: 120px;
 }
 .category-item {
   width: calc((100% - 48px) / 3);
   height: 420px;
   text-align: center;
-
   border: 1px solid var(--accent-color);
 }
 .category-link {
 }
 
 .card-content-portfolio {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
