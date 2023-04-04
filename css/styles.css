@@ -389,12 +389,18 @@ body {
 .card-content-portfolio {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 8px;
 }
 
 .category-name {
-  margin-top: 32px;
   margin-bottom: 8px;
-
+  align-items: flex-start;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -402,7 +408,6 @@ body {
   color: var(--dark-color);
 }
 .category-text {
-  padding-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
