@@ -369,18 +369,20 @@ body {
 }
 
 .category-section {
-  width: 1128px;
 }
 
 .category-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 28px;
+  column-gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+
   padding-bottom: 120px;
 }
 .category-item {
   width: 360px;
-  height: 420px;
   text-align: center;
   border: 1px solid var(--accent-color);
 }
