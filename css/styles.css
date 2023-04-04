@@ -70,6 +70,7 @@ body {
   background: var(--white-background-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .main-navigation {
@@ -326,14 +327,29 @@ body {
 
 **-------------------------------------------Portfolio-------------------------------------------*/
   .filter {
+  width: 586px;
+}
+.filter-container {
 }
 .filter-title {
 }
 .filter-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .filter-item {
 }
+
 .filter-button {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -352,13 +368,33 @@ body {
   background-color: var(--pressed-state-color);
 }
 
+.category-section {
+}
+
 .category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .category-item {
+  width: calc((100% - 48px) / 3);
+  height: 420px;
+  text-align: center;
+
+  border: 1px solid var(--accent-color);
 }
 .category-link {
 }
+
+.card-content-portfolio {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .category-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -366,6 +402,7 @@ body {
   color: var(--dark-color);
 }
 .category-text {
+  padding-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

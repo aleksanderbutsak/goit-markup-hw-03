@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="border">
       <div class="container">
         <nav class="header-navigation main-navigation">
           <a class="logo-link link" href="./index.html"
@@ -59,25 +59,29 @@
 
     <main>
       <section class="filter">
-        <h1 hidden class="filter-title">Filter</h1>
-        <ul class="filter-list list">
-          <li class="filter-item">
-            <button class="filter-button" type="button">All</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Web Site</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">App</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Design</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Marketing</button>
-          </li>
-        </ul>
+        <div class="filter-container">
+          <h1 hidden class="filter-title">Filter</h1>
+          <ul class="filter-list list">
+            <li class="filter-item">
+              <button class="filter-button" type="button">All</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Web Site</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">App</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Design</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Marketing</button>
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="category-section">
         <ul class="category-list list">
           <li class="category-item">
             <a class="category-link link" href="">
@@ -86,8 +90,10 @@
                 alt="Banking App Interface Concept"
                 width="360"
               />
-              <h2 class="category-name">Banking App Interface Concept</h2>
-              <p class="category-text">App</p>
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Banking App Interface Concept</h2>
+                <p class="category-text">App</p>
+              </div>
             </a>
           </li>
           <li class="category-item">
@@ -97,8 +103,10 @@
                 alt="Cashless Payment"
                 width="360"
               />
-              <h2 class="category-name">Cashless Payment</h2>
-              <p class="category-text">Marketing</p>
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Cashless Payment</h2>
+                <p class="category-text">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="category-item">
@@ -108,8 +116,10 @@
                 alt="Meditation App"
                 width="360"
               />
-              <h2 class="category-name">Meditation App</h2>
-              <p class="category-text">App</p>
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Meditation App</h2>
+                <p class="category-text">App</p>
+              </div>
             </a>
           </li>
           <li class="category-item">
@@ -119,9 +129,11 @@
                 alt="Taxi Service"
                 width="360"
               />
-              <h2 class="category-name">Taxi Service</h2>
-              <p class="category-text">Marketing</p></a
-            >
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Taxi Service</h2>
+                <p class="category-text">Marketing</p>
+              </div>
+            </a>
           </li>
           <li class="category-item">
             <a class="category-link link" href="">
@@ -130,9 +142,11 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h2 class="category-name">Screen Illustrations</h2>
-              <p class="category-text">Design</p></a
-            >
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Screen Illustrations</h2>
+                <p class="category-text">Design</p>
+              </div>
+            </a>
           </li>
           <li class="category-item">
             <a class="category-link link" href="">
@@ -141,9 +155,11 @@
                 alt="Online Courses"
                 width="360"
               />
-              <h2 class="category-name">Online Courses</h2>
-              <p class="category-text">Marketing</p></a
-            >
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Online Courses</h2>
+                <p class="category-text">Marketing</p>
+              </div>
+            </a>
           </li>
           <li class="category-item">
             <a class="category-link link" href="">
@@ -152,9 +168,11 @@
                 alt="Instagram Stories Concept"
                 width="360"
               />
-              <h2 class="category-name">Instagram Stories Concept</h2>
-              <p class="category-text">Design</p></a
-            >
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Instagram Stories Concept</h2>
+                <p class="category-text">Design</p>
+              </div>
+            </a>
           </li>
           <li class="category-item">
             <a class="category-link link" href="">
@@ -163,9 +181,11 @@
                 alt="Organic Food"
                 width="360"
               />
-              <h2 class="category-name">Organic Food</h2>
-              <p class="category-text">Web Site</p></a
-            >
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Organic Food</h2>
+                <p class="category-text">Web Site</p>
+              </div>
+            </a>
           </li>
           <li class="category-item">
             <a class="category-link link" href="">
@@ -174,9 +194,11 @@
                 alt="Fresh Coffee"
                 width="360"
               />
-              <h2 class="category-name">Fresh Coffee</h2>
-              <p class="category-text">Web Site</p></a
-            >
+              <div class="card-content-portfolio">
+                <h2 class="category-name">Fresh Coffee</h2>
+                <p class="category-text">Web Site</p>
+              </div>
+            </a>
           </li>
         </ul>
       </section>
