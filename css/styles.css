@@ -394,6 +394,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 
   gap: 8px;
 }
